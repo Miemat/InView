@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ATRYBUTY>
+    <Atrybut Klucz="ASC" Wartosc="ASC">ASC</Atrybut>
+    <Atrybut Klucz="DESC" Wartosc="DESC">DESC</Atrybut>
+</ATRYBUTY>

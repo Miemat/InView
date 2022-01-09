@@ -14,7 +14,13 @@ repositories {
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter'
-	implementation group: 'org.springframework', name: 'org.springframework.web', version: '3.2.2.RELEASE'
+	implementation group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '2.6.2'
+
+	// https://mvnrepository.com/artifact/org.glassfish.jaxb/jaxb-runtime
+	implementation group: 'org.glassfish.jaxb', name: 'jaxb-runtime', version: '3.0.2'
+// https://mvnrepository.com/artifact/com.sun.activation/javax.activation
+	implementation group: 'com.sun.activation', name: 'javax.activation', version: '1.2.0'
+
 
 
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
