@@ -10,6 +10,6 @@ public class Atrybut {
     public String Klucz;
     @XmlAttribute(name = "Wartosc")
     public String Wartosc;
-    @XmlElement(name = "description")
+//    @XmlElement(name = "description")
     public String text;
 }
